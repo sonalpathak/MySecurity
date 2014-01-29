@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="5px"
+    android:minHeight="5px">
+    <Button
+        android:text="Start ALarm"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/start_alarm" />
+    <Button
+        android:text="Stop ALarm"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/stop_alarm" />
+</LinearLayout>

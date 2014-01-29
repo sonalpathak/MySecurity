@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="2.0" package="MySecurity.MySecurity" android:versionCode="2">
+	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16" />
+	<application android:label="MySecurity" android:icon="@drawable/alert"></application>
+	<!--	<activity android:name="AndroidTabLayout.AndroidTabLayout" android:configChanges="orientation|keyboardHidden" android:label="@string/app_name">
+		<intent-filter>
+			<action android:name="AndroidTabLayout.AndroidTabLayout" />
+			<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+	</activity>-->
+	<!--<intent-filter><action android:name="AndroidTabLayout.AndroidTabLayout.intent.action.INVOKE_AndroidTabLayout"/></intent-filter>-->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+</manifest>
